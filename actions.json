@@ -1,0 +1,20 @@
+[
+	{
+		"id": 303,
+		"type": 0,
+		"author": "Malachi",
+		"content": "All future proposals/rule change must be stated in its own respective thread, with proper formatting in this manner: \"I propose <your change> . I put this to a vote.\"\n"
+	},
+	{
+		"id": 305,
+		"type": 0,
+		"author": "Eli",
+		"content": "For a vote on a rule change proposition to be valid, the message to propose it must adhere to all of the following criteria:\n- Be a Discord reply to the rule change proposition's message\n- Be for a rule change proposed in the proper way.\n- Very clearly express agreement or disagreement of the rule change proposition (i.e. I vote yes or I vote no)\n- Be an unedited message.\nAny vote that does not follow all of these guidelines is not a valid vote and does not count toward the vote tally."
+	},
+	{
+		"id": 306,
+		"type": 2,
+		"target": 105,
+		"author": "Jude"
+	}
+]
