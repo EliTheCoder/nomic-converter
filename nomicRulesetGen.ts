@@ -29,7 +29,7 @@ type Action = {
 for (let i = 0; i < actions.length; i++) {
 	const action = actions[i];
 	switch (action.type) {
-		case ActionType.ENACT:
+		case ActionType.ENACT: {
 			if (action.content === undefined)
 				throw new Error(`Enactment ${i} is missing content`);
 			ruleset.push({
@@ -39,6 +39,7 @@ for (let i = 0; i < actions.length; i++) {
 				author: action.author
 			});
 			break;
+		}
 		case ActionType.REPEAL: {
 			if (action.target === undefined)
 				throw new Error(`Repeal ${i} is missing target`);

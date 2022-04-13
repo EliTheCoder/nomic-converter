@@ -9,12 +9,26 @@
 		"id": 305,
 		"type": 0,
 		"author": "Eli",
-		"content": "For a vote on a rule change proposition to be valid, the message to propose it must adhere to all of the following criteria:\n- Be a Discord reply to the rule change proposition's message\n- Be for a rule change proposed in the proper way.\n- Very clearly express agreement or disagreement of the rule change proposition (i.e. I vote yes or I vote no)\n- Be an unedited message.\nAny vote that does not follow all of these guidelines is not a valid vote and does not count toward the vote tally."
+		"content": "For a vote on a rule change proposition to be valid, the message to propose it must adhere to all of the following criteria:\n- Be a Discord reply to the rule change proposition's message\n- Be for a rule change proposed in the proper way.\n- Very clearly express agreement or disagreement of the rule change proposition (i.e. I vote yes or I vote no)\n- Be an unedited message.\nAny vote that does not follow all of these guidelines is not a valid vote and does not count toward the vote tally.\n"
 	},
 	{
 		"id": 306,
 		"type": 2,
 		"target": 105,
-		"author": "Jude"
+		"author": "Huday"
+	},
+	{
+		"id": 309,
+		"type": 3,
+		"target": 203,
+		"author": "Alex",
+		"content": "A rule change is adopted if and only if the number of votes in agreement with passing the rule change is greater than or equal to two-thirds of the total number of valid votes for that rule change.\n"
+	},
+	{
+		"id": 310,
+		"type": 3,
+		"target": 204,
+		"author": "Hannah",
+		"content": "If and when rule changes can be adopted without unanimity, players who vote in the minority on any proposed rule change shall receive five points apiece after the vote finishes.\n"
 	}
 ]
