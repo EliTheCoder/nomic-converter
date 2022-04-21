@@ -142,15 +142,6 @@
     "author": "Eli"
   },
   {
-    "id": 306,
-    "immutable": false,
-    "content": "Every player is an eligible voter. Every elegible voter must participate in every vote on rule changes.\n",
-    "author": "Huday",
-    "previous": [
-      105
-    ]
-  },
-  {
     "id": 309,
     "immutable": false,
     "content": "A rule change is adopted if and only if the number of votes in agreement with passing the rule change is greater than or equal to two-thirds of the total number of valid votes for that rule change.\n",
@@ -166,6 +157,16 @@
     "author": "Hannah",
     "previous": [
       204
+    ]
+  },
+  {
+    "id": 313,
+    "immutable": false,
+    "content": "Every player is an eligible voter. Every eligible voter must participate in every vote on rule changes unless their vote is withdrawn. If any player's vote is withdrawn, that player does not have the right to vote for that rule change proposal. If all votes for a rule change proposal are cast or withdrawn, the voting step of that rule change proposal is finished. There are several ways that a vote can be withdrawn.\n    If 24 hours has passed since a valid rule change proposal, the votes of any eligible voters who have not yet cast a valid vote for that rule change proposal are withdrawn.\n    If a player states \"I am withdrawing my vote\" or \"I abstain from voting\" in a thread for a rule change proposal, their vote is withdrawn for that rule change proposal.\n    If a player states \"I am going on hiatus for <amount of time>\", then their vote is automatically withdrawn for any rule change proposal made before that amount of time has passed.\n    If the number of votes opposing the rule change proposal is greater than or equal to the minimum number of opposing votes needed to defeat the proposal, the votes of any eligible voters who have not yet cast a valid vote for that rule change proposal are withdrawn.\n",
+    "author": "Anthony",
+    "previous": [
+      105,
+      306
     ]
   }
 ]
