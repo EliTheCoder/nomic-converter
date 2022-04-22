@@ -168,5 +168,11 @@
       105,
       306
     ]
+  },
+  {
+    "id": 314,
+    "immutable": false,
+    "content": "If and when rule changes can be adopted without unanimity, players who vote in the minority on any proposed rule change shall lose five points apiece after the vote finishes.\nPlayers who vote yes on the rule change proposal with the ordinal number of 314 will receive six points apiece at the moment immediately after the completion of the vote that adopted it.\n",
+    "author": "Eli"
   }
 ]
