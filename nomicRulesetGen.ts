@@ -3,7 +3,7 @@ const actionsText = await Deno.readTextFile("./actions.json");
 const ruleset: Rule[] = JSON.parse(initialRulesetText);
 const actions: Action[] = JSON.parse(actionsText);
 
-enum ActionType {
+export enum ActionType {
 	ENACT,
 	REPEAL,
 	TRANSMUTE,
@@ -18,7 +18,7 @@ type Rule = {
 	author?: string;
 };
 
-type Action = {
+export type Action = {
 	type: ActionType;
 	id: number;
 	author: string;
