@@ -75,11 +75,6 @@
     "immutable": true
   },
   {
-    "id": 201,
-    "content": "Players shall alternate in clockwise order, taking one whole turn apiece. Turns may not be skipped or passed, and parts of turns may not be omitted. All players begin with zero points.\nIn mail and computer games, players shall alternate in alphabetical order by surname.\n",
-    "immutable": false
-  },
-  {
     "id": 202,
     "content": "One turn consists of two parts in this order: (1) proposing one rule-change and having it voted on, and (2) throwing one die once and adding the number of points on its face to one's score.\nIn mail and computer games, instead of throwing a die, players subtract 290 from the ordinal number of their proposal and multiply the result by the fraction of favorable votes it received, rounded to the nearest integer. (This yields a number between 0 and 10 for the first player, with the upper limit increasing by one each turn; more points are awarded for more popular proposals.)\n",
     "immutable": false
@@ -174,5 +169,14 @@
     "immutable": false,
     "content": "If and when rule changes can be adopted without unanimity, players who vote in the minority on any proposed rule change shall lose five points apiece after the vote finishes.\nPlayers who vote yes on the rule change proposal with the ordinal number of 314 will receive six points apiece at the moment immediately after the completion of the vote that adopted it.\n",
     "author": "Eli"
+  },
+  {
+    "id": 315,
+    "immutable": false,
+    "content": "Players shall alternate in alphabetical order by surname, taking one whole turn apiece unless their turn is skipped. If a player's turn is skipped, the next player in the order shall begin their turn immediately, no points shall be rewarded to or removed from any player, and the ordinal number for rule changes shall not be changed. Otherwise, no parts of a turn may be omitted. All players begin with zero points.\n\nIf the current player has not proposed a rule change during their turn, they may state (from their Discord account) \"I skip my turn\", and their turn will be skipped.\n\nIf it has been at least 48 hours and 1 minute since the last turn ended or was skipped, and no rule has been proposed by the current player, the current turn is automatically skipped.\n\nIf two or more surnames are the same, the player with the earliest first name alphabetically prevails in the order. If two players have identical first names and surnames, precedence in the order will be decided by a Wii Sports Resort Swordplay Duel. If the duel is a tie or there are three or more players with identical first names and surnames, precedence in the order will be decided by time of birth (older is first).\n",
+    "author": "Huday",
+    "previous": [
+      201
+    ]
   }
 ]

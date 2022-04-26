@@ -54,4 +54,4 @@ actions.push({
 	content: content === "" ? undefined : content
 });
 
-Deno.writeTextFile("./actions.json", JSON.stringify(actions, null, 2));
+Deno.writeTextFile("./actions.json", JSON.stringify(actions, null, "\t"));

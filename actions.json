@@ -43,5 +43,12 @@
 		"type": 0,
 		"author": "Eli",
 		"content": "If and when rule changes can be adopted without unanimity, players who vote in the minority on any proposed rule change shall lose five points apiece after the vote finishes.\nPlayers who vote yes on the rule change proposal with the ordinal number of 314 will receive six points apiece at the moment immediately after the completion of the vote that adopted it.\n"
+	},
+	{
+		"type": 3,
+		"id": 315,
+		"author": "Huday",
+		"target": 201,
+		"content": "Players shall alternate in alphabetical order by surname, taking one whole turn apiece unless their turn is skipped. If a player's turn is skipped, the next player in the order shall begin their turn immediately, no points shall be rewarded to or removed from any player, and the ordinal number for rule changes shall not be changed. Otherwise, no parts of a turn may be omitted. All players begin with zero points.\n\nIf the current player has not proposed a rule change during their turn, they may state (from their Discord account) \"I skip my turn\", and their turn will be skipped.\n\nIf it has been at least 48 hours and 1 minute since the last turn ended or was skipped, and no rule has been proposed by the current player, the current turn is automatically skipped.\n\nIf two or more surnames are the same, the player with the earliest first name alphabetically prevails in the order. If two players have identical first names and surnames, precedence in the order will be decided by a Wii Sports Resort Swordplay Duel. If the duel is a tie or there are three or more players with identical first names and surnames, precedence in the order will be decided by time of birth (older is first).\n"
 	}
 ]
